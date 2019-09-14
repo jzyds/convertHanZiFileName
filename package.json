@@ -1,0 +1,26 @@
+{
+  "name": "converthanzifilename",
+  "version": "1.0.2",
+  "description": "一个工具用来将文件夹下的汉字文件名，转换为拼音文件名。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cvfn": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzyds/convertHanZiFileName.git"
+  },
+  "author": "jzyds",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jzyds/convertHanZiFileName/issues"
+  },
+  "homepage": "https://github.com/jzyds/convertHanZiFileName#readme",
+  "dependencies": {
+    "pinyin": "^2.9.0",
+    "pumelo": "^2.1.10"
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.vscode
+package-lock.json
+.eslintrc
+.eslintrc.json
+test.html
+test/
+.idea/
+.idea
+.idea/*
