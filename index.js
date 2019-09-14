@@ -40,7 +40,8 @@ function renameFile (dir) {
 
 const main = () => {
   if (process.argv.length < 3) {
-    throw('缺少文件夹参数');
+    console.error('缺少文件夹参数');
+    return void 0;
   }
 
   let dir = process.argv[2];
